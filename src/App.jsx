@@ -1,11 +1,12 @@
 import './App.css'
+import Hero from './components/organisms/hero'
 
 function App() {
 
 
   return (
     <>
-      <p>Hello World!</p>
+      <Hero />
     </>
   )
 }
