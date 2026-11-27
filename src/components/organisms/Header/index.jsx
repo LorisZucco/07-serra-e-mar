@@ -8,8 +8,8 @@ export default function Header() {
             <a href="/" className={styles.logo}> ⛰️ Serra & Mar
             </a>
             <nav className={styles.nav}>
-                <a href="">Destinos</a>
-                <a href="">Contato</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#contatos">Contato</a>
             </nav>
         </div>
     </header>
