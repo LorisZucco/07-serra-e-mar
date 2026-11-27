@@ -17,7 +17,7 @@ export default function TripCard({ trip }) {
           <Tag key={tag}>{tag}</Tag>
         ))}
       </div>
-      <Price>R$ {trip.Price}</Price>
+      <Price> R$ {trip.price}</Price>
       <Button>Quero ir</Button>
     </article>
   );
