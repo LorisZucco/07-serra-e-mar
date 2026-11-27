@@ -1,19 +1,13 @@
 import './App.css'
-import Footer from './components/organisms/Footer'
-import Header from './components/organisms/Header'
-import Hero from './components/organisms/hero'
-import TripList from './components/organisms/TripList'
+import Home from "./pages/Home";
 
 function App() {
 
 
   return (
-    <>
-      <Header/>
-      <Hero />
-      <TripList/>
-      <Footer />
-    </>
+  
+    <Home />
+  
   )
 }
 
